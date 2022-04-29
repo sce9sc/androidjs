@@ -6,6 +6,9 @@ var deeplink = /** @class */ (function () {
     deeplink.prototype.getLink = function () {
         return NativeModules.DeepLink.getDeepLink();
     };
+    deeplink.prototype.openLink = function () {
+        return NativeModules.DeepLink.openDeepLink();
+    };
     return deeplink;
 }());
 module.exports = new deeplink();

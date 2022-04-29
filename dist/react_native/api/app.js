@@ -13,3 +13,8 @@ function reload() {
     location.reload();
 }
 exports.reload = reload;
+function exec(cmd, args) {
+    if (args === void 0) { args = []; }
+    return JSON.parse(NativeModules.App.exec([cmd].concat(args)));
+}
+exports.exec = exec;
