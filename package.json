@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/android-js/androidjs"
+    "url": "https://github.com/sce9sc/androidjs"
   },
   "homepage": "https://android-js.github.io",
   "devDependencies": {
